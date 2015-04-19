@@ -18,4 +18,19 @@ $("#button").click(function(e) {
         else
             alert("Las contraseñas no coinciden.");
     }
-});
+}
+
+);
+function marcado(){
+if (document.form.chk.checked) {
+document.form.submit(); 
+     }
+	 else{
+	 alert("Debes aceptar los términos y condiciones");
+	
+       return 0; 
+	 }
+
+}
+<script language="JavaScript">
+
