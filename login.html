@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>InfoRunning</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <style>
+p {
+    color: Blue;
+    text-align: center;
+} 
+</style>
+
+</head>
+<body>
+
+<nav role="navigation" class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">InfoRunning</a>
+    </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+    </ul>
+                <ul class="nav navbar-nav navbar-right">
+        <li><a href="registro.html">No tengo cuenta</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h2>Introduzca sus datos, por favor:</h2>
+  <form role="form">
+          <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Introduzca la dirección de email con la que se registró" required>
+    </div>
+      <div class="form-group">
+      <label for="contraseña">Introduzca su contraseña:</label>
+      <input type="password" class="form-control" id="contraseña" placeholder="Introduzca su contraseña" required>
+    </div>
+    <button type="submit" class="btn btn-default">Confirmar</button>
+  </form>
+</div>
+    <script src="login.js"></script>
+ </body>
+</html>
